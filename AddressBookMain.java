@@ -52,6 +52,17 @@ public class AddressBookMain {
 					ab.deletingPerson(deleteName);
 					break;
 			}
+			default: System.out.println("your not selected between 1 to 9");
+			}
+			System.out.println("Do you wish to continue y/n");
+			char ans = sc.next().charAt(0);
+			 if(ans=='y') {
+				 flag=true;
+			 }
+			 else {
+				 System.out.println("Thank you");
+				 flag=false;
+			 }
 		}
 	}
 }
