@@ -41,6 +41,7 @@ public class AddressBookMain {
 					Person person = new Person(firstName,lastName,address,city,state,zip,phoneNumber);
 					ab.addingNewPerson(person);
 					break;
+
 			case 2: System.out.println("Editing Person");
 			        System.out.println("Enter the firstName of the Person that you wish to edit");
 			        String editName=sc.next();
@@ -60,4 +61,3 @@ public class AddressBookMain {
 		}
 	}
 }
-			        
