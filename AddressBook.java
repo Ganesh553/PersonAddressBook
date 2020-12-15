@@ -151,4 +151,16 @@ public class AddressBook {
 				}
 			}
 		}
+		public void sortingByFirstName() {
+	        TreeSet<Object> ts = new TreeSet<Object>();
+	        if(al.isEmpty())
+				System.out.println("No Address is Present");
+			else {
+				for(Person obj:al) {
+					ts.add(obj);
+				}
+				System.out.println(ts);
+			}
+		}
+
 }

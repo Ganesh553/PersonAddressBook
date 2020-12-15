@@ -69,6 +69,10 @@ public class AddressBookMain {
 					String searchName = sc.next();
 					ab.searchPerson(searchName);
 					break;
+			case 9: System.out.println("Sorting by First Name");
+					ab.sortingByFirstName();
+					break;
+
 			default: System.out.println("your not selected between 1 to 9");
 			}
 			System.out.println("Do you wish to continue y/n");
