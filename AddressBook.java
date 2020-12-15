@@ -106,10 +106,8 @@ public class AddressBook {
 					else {
 						System.out.println("There is no duplicate, Continue..");
 						break;
-					}
-						
+					}				
 				}		
-				
 			}	
 		}
 }
