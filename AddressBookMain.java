@@ -65,6 +65,10 @@ public class AddressBookMain {
 					String searchCity=sc.next();
 					ab.searchCity(searchCity);
 					break;
+			case 8: System.out.println("Enter the Person");
+					String searchName = sc.next();
+					ab.searchPerson(searchName);
+					break;
 			default: System.out.println("your not selected between 1 to 9");
 			}
 			System.out.println("Do you wish to continue y/n");
