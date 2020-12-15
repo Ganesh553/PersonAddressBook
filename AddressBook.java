@@ -118,7 +118,17 @@ public class AddressBook {
 				if(obj.getState().equals(searchState))
 					System.out.println(obj.getFirstName());
 			}
-			}
-			
+			}	
 		}
+		public void searchCity(String searchCity) {
+			if(al.isEmpty())
+				System.out.println("No Address Present");
+			else {
+			for(Person obj:al) {
+				if(obj.getCity().equals(searchCity))
+					System.out.println(obj.getFirstName());
+			}
+			}
+		}
+
 }
