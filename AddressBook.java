@@ -81,4 +81,14 @@ public class AddressBook {
 			}
 			}
 		}
+		public void display() {
+			if(al.isEmpty())
+				System.out.println("No Address Present");
+			else {
+			for(Person obj : al) {
+				System.out.print("FirstName: "+ obj.getFirstName()+" LastName: " + obj.getLastName()+" Address: " + obj.getAddress()+" City: "+ obj.getCity()+" State: " + obj.getState()+" Zip: " + obj.getZip()+" phoneNumber: " + obj.getPhoneNumber());
+				System.out.println();
+			}
+			}
+		}
 }
