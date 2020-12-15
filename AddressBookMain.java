@@ -54,6 +54,7 @@ public class AddressBookMain {
 			case 4: System.out.println("Displaying all the contacts ");
 					ab.display();
 					break;
+			}
 			default: System.out.println("your not selected between 1 to 9");
 			}
 			System.out.println("Do you wish to continue y/n");
@@ -67,6 +68,5 @@ public class AddressBookMain {
 			 }
 		}
 	}
-
 }
-
+}
